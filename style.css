@@ -1,14 +1,33 @@
-/*RESET CSS*/
-
 * {
-    margin: 0;
-	padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	padding: 0px;
 	border: 0;
 	font-size: 100%;
 	box-sizing: border-box;
 }
 
 /*UTILIES*/
+
+main {
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10pt;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
 
 /*HEADER*/
 
@@ -23,4 +42,108 @@
     font-size: 2.5rem;
     font-weight: 800;
     vertical-align: middle;
+}
+
+/*MAIN*/
+
+.full-button{
+    background-color: #1e90ff;
+    color: white;
+    padding: 5px;
+    border-radius: 0.2rem;
+}
+
+.empty-button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    padding: 5px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1.3rem;
+
+}
+
+.check {
+    color: green;
+    font-size: 0.8rem;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.cross {
+    color: red;
+    font-size: 0.8rem;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.label-celeste {
+    color: white;
+    background-color: #45abea;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border-radius: 0.625rem;
+}
+
+.label-viola {
+    color: white;
+    background-color: #9c72e4;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border-radius: 0.625rem;
+}
+
+.label-rosa {
+    color: white;
+    background-color: #d863a1;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border-radius: 0.625rem;
+}
+
+.label-arancione {
+    color: white;
+    background-color: #f29e33;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border-radius: 0.625rem;
+}
+
+.label-verde {
+    color: white;
+    background-color: #64c0a9;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border-radius: 0.625rem;
+}
+
+.label-acido {
+    color: white;
+    background-color: #b0c926;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border-radius: 0.625rem;
 }
