@@ -84,6 +84,7 @@ h3 {
 
 .description {
     font-size: 1.3rem;
+    vertical-align: middle;
 
 }
 
@@ -93,6 +94,7 @@ h3 {
     border: 1px solid green;
     border-radius: 50%;
     padding: 2px;
+    vertical-align: middle;
 }
 
 .cross {
@@ -101,6 +103,7 @@ h3 {
     border: 1px solid red;
     border-radius: 50%;
     padding: 2px;
+    vertical-align: middle;
 }
 
 .label-celeste,
@@ -115,6 +118,7 @@ h3 {
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
     border-radius: 0.625rem;
+    vertical-align: middle;
 }
 
 .label-celeste {
